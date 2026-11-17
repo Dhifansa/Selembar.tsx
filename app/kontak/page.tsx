@@ -31,7 +31,7 @@ const CONTACT_CARDS = [
     title: 'Instagram',
     desc: 'Lihat portofolio terbaru kami',
     value: '@selemba.tsx',
-    href: 'https://instagram.com/selembar',
+    href: 'https://selembar-tsx.vercel.app/',
   },
 ];
 
