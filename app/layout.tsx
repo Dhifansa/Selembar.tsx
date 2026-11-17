@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   },
   description:
     "Setiap momen spesial layak diabadikan dengan indah. Jasa pembuatan undangan digital, portofolio web, dan landing page custom.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({
