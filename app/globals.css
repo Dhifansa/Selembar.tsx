@@ -2,25 +2,62 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #112544;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* SELEMBAR Brand Colors: Putih, Biru Tua #112544, Kuning #FFC61A, Hijau Matcha #789262 */
+  --color-brand-dark: #ffffff; /* Main background is white */
+  --color-brand-navy: #112544; /* Biru Tua #112544 */
+  --color-brand-navy-light: #1c3866;
+  --color-brand-yellow: #FFC61A; /* Kuning #FFC61A */
+  --color-brand-yellow-light: #FFF8E1;
+  --color-brand-matcha: #789262; /* Hijau Matcha */
+  --color-brand-matcha-dark: #586F46;
+  --color-brand-matcha-light: #EBF1E8;
+  --color-brand-blue: #112544;
+  --color-brand-blue-light: #EBF1E8;
+  --color-brand-accent: #789262; /* Matcha Green Accent */
+  --color-brand-surface: #F9FBF9; /* Soft clean off-white */
+  --color-brand-surface-light: #F0F5F0;
+  --color-brand-text: #112544; /* Deep Navy Main Text */
+  --color-brand-text-muted: #536479; /* Muted Slate-Navy */
+  --color-brand-glow: #FFC61A; /* Golden Yellow Glow */
+
+  /* Legacy compat aliases */
+  --color-brand-cream: #ffffff;
+  --color-brand-warm: #F9FBF9;
+  --color-brand-brown: #789262;
+  --color-brand-brown-dark: #112544;
+  --color-brand-brown-light: #FFC61A;
+
+  /* Fonts */
+  --font-playfair: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-inter: var(--font-inter), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrollbar for theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f5f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd8c5;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a4b89d;
 }
