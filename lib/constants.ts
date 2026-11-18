@@ -48,7 +48,7 @@ export const PORTFOLIO_ITEMS = [
     title: 'Portofolio Dhifansa Prdibtya Rafi',
     category: 'portofolio',
     thumbnail: '/Portofolio.webp',
-    liveUrl: 'https://dhifansa-porto.vercel.app/',
+    liveUrl: 'https://dhifansa-pradibtya-rafi.vercel.app/',
   },
   {
     id: 3,
